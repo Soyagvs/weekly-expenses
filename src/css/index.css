@@ -1,0 +1,144 @@
+body {
+    background: #ffffff;
+    background-color: #bed4ff;
+}
+
+.title {
+    margin-top: 15px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+label {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+.content-primary {
+    background-color: #f1b478;
+    border: 1px solid black;
+    border-radius: 12px;
+    width: 40%;
+    height: 170px;
+}
+
+@media (max-width:1024px) {
+    .content-primary {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 200px;
+        margin-bottom: 20px;
+        width: 40%;
+    }
+
+}
+
+@media (max-width:412px) {
+    .content-primary {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: auto;
+        height: auto;
+        margin-bottom: 20px;
+    }
+
+    .text-center {
+        text-align: center;
+        width: 90%;
+    }
+
+    .content-secundary {
+        width: 40%;
+    }
+
+}
+
+@media (max-width:853px) {
+    .content-primary {
+        width: auto;
+    }
+
+}
+
+@media (max-width:430px) {
+    .text-center {
+        text-align: center;
+        width: 90%;
+    }
+}
+@media (max-width:867px) {
+    .text-center {
+        text-align: center;
+        width: 90%;
+    }
+}
+.text-center {
+    text-align: center;
+}
+
+.form-group {
+    text-align: start;
+    margin-left: 20px;
+    margin: 10px;
+}
+
+.add {
+    text-align: start;
+    margin-left: 20px;
+    background-color: #0af299;
+    width: 80px;
+    text-align: center;
+    height: 30px;
+    border-radius: 10px;
+}
+
+.add:hover {
+    background-color: #97f8d8;
+}
+
+.content-secundary {
+    width: 40%;
+    height: auto;
+    background-color: #f1d57c;
+    border-radius: 12px;
+    border: 1px solid black;
+}
+
+@media (max-width:1024px) {
+    .content-secundary {
+        height: auto;
+    }
+}
+
+.text-center2 {
+    text-align: center;
+}
+
+.presupuesto {
+    margin-left: 20px;
+}
+
+p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+@media (max-width:1073px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+}
