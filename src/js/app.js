@@ -1,6 +1,6 @@
 // Variables y Selectores
 const formulario = document.getElementById('agregar-gasto');
-const gastosListado = document.querySelector('.add');
+const gastosListado = document.querySelector('.list-group');
 
 // Eventos
 eventListeners();
@@ -52,10 +52,10 @@ class UI {
         }
         divMensaje.textContent = mensaje;
 
-        document.querySelector('.container').insertBefore(divMensaje, formulario);
+        document.querySelector('#mensaje-container').appendChild(divMensaje);
 
         setTimeout(() => {
-            document.querySelector('.container .alert').remove();
+            document.querySelector('#mensaje-container .alert').remove();
         }, 3000);
     }
 
